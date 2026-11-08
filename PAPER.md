@@ -2,7 +2,7 @@ STOP ASKING “CAN AI DO IT?” START ASKING “WHAT GIVES AI THE RIGHT TO FOLLO
 
 GPT-5.4, the Binding Condition, Protected Agent Execution, and Why Prompting Alone Is Not Authorization
 
-Sharthok Rayan Pal — SwiftAPI Labs<br/>November 8, 2026 · Version 1.0.0
+Sharthok Rayan Pal — SwiftAPI Labs<br/>November 8, 2026 · Version 1.0.1
 
 Abstract
 
@@ -191,6 +191,8 @@ Code, frozen protocol and raw evidence: <a href="https://github.com/theonlypal/g
 From a fresh clone: install requirements.txt, run <b>python verify_study.py</b>, and verify <b>shasum -a 256 -c SHA256SUMS</b>. No paid inference or signing authority is needed. The verifier checks frozen bytes, independently decodes proposals, reconstructs nonce/state/signature decisions, checks readback and recalculates usage-priced cost. The execution instrument is not rerun to verify archived outcomes.
 
 The live experiment is deliberately not automatically repeatable by the offline verifier: new paid collection requires explicit credentials, a budget and fresh paths. Existing records are immutable. The macOS sandbox is a qualified local boundary, not a portable assurance claim for other operating systems or cloud deployments.
+
+Release qualification requires a virtual environment inside the fresh checkout. A borrowed environment outside its sandbox-readable tree caused thirteen development-check failures; the correctly installed clone passed all 108 checks. The earlier tag’s qualification metadata is corrected in version 1.0.1. Primary requests, responses, execution evidence, frozen code and outcomes are unchanged. Details and the successful JUnit record are preserved in QUALIFICATION_NOTES.md and verification/.
 
 
 ---

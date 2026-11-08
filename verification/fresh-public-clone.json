@@ -5,8 +5,14 @@
   "signing_keys_required": false,
   "offline_primary_verifier": "PASS",
   "linkage_audit": "PASS",
+  "dependency_environment": "new .venv inside the fresh clone; pinned requirements",
   "tests_passed": 108,
   "tests_failed": 0,
   "independent_third_party": false,
-  "shared_dependency_environment": true
+  "prior_external_venv_attempt": {
+    "tests_passed": 95,
+    "tests_failed": 13,
+    "cause": "sandbox denied external pyvenv.cfg; crash fixture timed out"
+  },
+  "qualification_notes": "QUALIFICATION_NOTES.md"
 }

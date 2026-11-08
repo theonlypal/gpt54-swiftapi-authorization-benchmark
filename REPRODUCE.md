@@ -5,7 +5,7 @@
 ```sh
 git clone https://github.com/theonlypal/gpt54-swiftapi-authorization-benchmark.git
 cd gpt54-swiftapi-authorization-benchmark
-git checkout v1.0.0
+git checkout v1.0.1
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 shasum -a 256 -c SHA256SUMS

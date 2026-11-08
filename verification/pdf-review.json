@@ -1,5 +1,6 @@
 {
+  "version": "1.0.1",
   "pages": 7,
-  "raster_review": "All seven pages inspected at 1200px; no clipping, overlaps, missing glyphs or rotated pages observed.",
-  "sha256": "a07b0ae42ebe4917fb2adfe8498025972762a24ea39f8029a62db79371b3bb06"
+  "raster_review": "All seven final pages verified: pages 1 and 6 visually reinspected; 2,3,4,5,7 byte-identical rendered PNGs to inspected pages. No clipping, overlap, missing glyph or rotated page.",
+  "sha256": "4cd3ac186b40dcbec9ac78da57b0df369c5ea87aad7ee941282b6f037381b812"
 }
