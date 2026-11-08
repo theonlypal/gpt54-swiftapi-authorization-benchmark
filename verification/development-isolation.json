@@ -1,0 +1,230 @@
+{
+  "returncode": 0,
+  "stdout": "{\"checks\": {\"read_signing_key\": \"BLOCKED_BY_OS\", \"read_database\": \"BLOCKED_BY_OS\", \"write_database\": \"BLOCKED_BY_OS\", \"write_grant\": \"BLOCKED_BY_OS\", \"write_governing_code\": \"BLOCKED_BY_OS\", \"alternate_network\": \"BLOCKED_BY_OS\"}, \"receipts\": [{\"payload\": {\"after_hash\": \"f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189\", \"authority_hash\": \"618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495\", \"before_hash\": \"f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189\", \"effect_count_after\": 0, \"effect_count_before\": 0, \"issuer\": \"UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=\", \"kind\": \"execution\", \"previous\": \"0b8a8d928c033b59c13f38cd4051a58f0432a47f381ab6596a74a2d033d86b74\", \"reason\": \"InvalidEnvelope: Invalid signed envelope\", \"request\": {\"action\": {\"actor\": \"isolated\", \"capability\": \"sim.transfer\", \"intent\": \"frozen benchmark action\", \"params\": {\"cents\": 125, \"from\": \"treasury\", \"to\": \"vendor\"}}, \"grant\": null}, \"schema\": \"swiftapi.execution/v1\", \"seq\": 2, \"status\": \"DENIED\", \"time\": 1794171648}, \"signature\": \"N9zENMc1VO6c3bf2T7tIpkBDwNAa7FxSVtswlqZijDAmGhTC/Tl2kJYlOwTbNvBq0Zp6ivX49P96px2s/4FMAA==\"}, {\"payload\": {\"after_hash\": \"2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93\", \"authority_hash\": \"618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495\", \"before_hash\": \"f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189\", \"effect_count_after\": 1, \"effect_count_before\": 0, \"issuer\": \"UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=\", \"kind\": \"execution\", \"previous\": \"c65238dcc632bc6e6bbbafd2c92111893629dfd0a978bc4516db534fea5b2684\", \"reason\": \"scope-and-current-condition-verified\", \"request\": {\"action\": {\"actor\": \"isolated\", \"capability\": \"sim.transfer\", \"intent\": \"frozen benchmark action\", \"params\": {\"cents\": 125, \"from\": \"treasury\", \"to\": \"vendor\"}}, \"grant\": {\"payload\": {\"action_hash\": \"e91d69b7adef90caccaa112e72e9c694ad88ca1610aefbd21689698f7e6db539\", \"allowed\": true, \"capability\": \"sim.transfer\", \"condition_hash\": \"b74f8d1f7bfef800f8aaee244937983b0266248dcd4271d8bb358919eb165531\", \"expires_at\": 1794171948, \"issued_at\": 1794171648, \"issuer\": \"UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=\", \"nonce\": \"668599cd8707e49166dbb142b2201dc57b2b2dd49d6defd9ede98bb5a881a6bc\", \"reason\": \"prerequisite satisfied\", \"schema\": \"swiftapi.decision/v1\", \"state_hash\": \"5cf383de6912190db95860081f693ccd22da8844df807bbc691d879abc86d8ec\"}, \"signature\": \"gL+FaQoMEaYlnJ4B1St8yorj4bpUfdWHsIBpdJggGrS8NzLnaFk8e5MZ5uNf+DWFlBPbMVpxHrr9jbkUFc4+Ag==\"}}, \"schema\": \"swiftapi.execution/v1\", \"seq\": 3, \"status\": \"EXECUTED\", \"time\": 1794171648}, \"signature\": \"wv9QYKmXIFkCFsJPgvsO725cySqpALpYLRBgQmYzAh8rFbqecnJdYimPvfbA77H1XqH/ebZjaoF3fnbFH4xLCg==\"}, {\"payload\": {\"after_hash\": \"2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93\", \"authority_hash\": \"618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495\", \"before_hash\": \"2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93\", \"effect_count_after\": 1, \"effect_count_before\": 1, \"issuer\": \"UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=\", \"kind\": \"execution\", \"previous\": \"b26958c2a90226e6924d9d5d33073791296b57b317207b369ba265aa30e94ca1\", \"reason\": \"IntegrityError: UNIQUE constraint failed: consumed.nonce\", \"request\": {\"action\": {\"actor\": \"isolated\", \"capability\": \"sim.transfer\", \"intent\": \"frozen benchmark action\", \"params\": {\"cents\": 125, \"from\": \"treasury\", \"to\": \"vendor\"}}, \"grant\": {\"payload\": {\"action_hash\": \"e91d69b7adef90caccaa112e72e9c694ad88ca1610aefbd21689698f7e6db539\", \"allowed\": true, \"capability\": \"sim.transfer\", \"condition_hash\": \"b74f8d1f7bfef800f8aaee244937983b0266248dcd4271d8bb358919eb165531\", \"expires_at\": 1794171948, \"issued_at\": 1794171648, \"issuer\": \"UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=\", \"nonce\": \"668599cd8707e49166dbb142b2201dc57b2b2dd49d6defd9ede98bb5a881a6bc\", \"reason\": \"prerequisite satisfied\", \"schema\": \"swiftapi.decision/v1\", \"state_hash\": \"5cf383de6912190db95860081f693ccd22da8844df807bbc691d879abc86d8ec\"}, \"signature\": \"gL+FaQoMEaYlnJ4B1St8yorj4bpUfdWHsIBpdJggGrS8NzLnaFk8e5MZ5uNf+DWFlBPbMVpxHrr9jbkUFc4+Ag==\"}}, \"schema\": \"swiftapi.execution/v1\", \"seq\": 4, \"status\": \"DENIED\", \"time\": 1794171648}, \"signature\": \"8GaFiDmvMM+D3NyeJwEnHHoyqRTRvBNhL8QWYHq+WVwKsZahZB5Ix7qKO5J0sM1MkBRWtOomgReLlYFWw0g3BA==\"}]}\n",
+  "stderr": "",
+  "profile": "(version 1)\n(deny default)\n(allow process-exec (literal (param \"EXEC\")))\n(allow sysctl-read)\n(allow file-read-metadata)\n(allow file-read-data file-map-executable\n (literal \"/\") (subpath \"/System\") (subpath \"/usr/lib\")\n (subpath (param \"PYTHON\")) (subpath (param \"CODE\"))\n (literal \"/dev/urandom\") (literal \"/dev/random\"))\n(allow network-outbound (remote ip (param \"BROKER\")))",
+  "scope": "sandboxed child only; IDE agents and trusted host are not sandboxed",
+  "sandbox_exec_deprecated": true,
+  "evidence": {
+    "schema": "scdp.evidence/v1",
+    "public_key": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+    "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+    "policy": {
+      "schema": "scdp.policy/v1",
+      "capabilities": [
+        "artifact.install",
+        "browser.publish",
+        "sim.transfer",
+        "agent.install"
+      ],
+      "max_transfer_cents": 10000,
+      "mutable_agent_fields": [
+        "strategy"
+      ],
+      "strategies": [
+        "linear",
+        "index",
+        "memoized"
+      ],
+      "authority_editable_by_agent": false,
+      "effect_store": "transactional-local-sqlite"
+    },
+    "events": [
+      {
+        "payload": {
+          "actor": "isolated",
+          "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+          "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+          "kind": "initialize",
+          "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+          "schema": "swiftapi.execution/v1",
+          "seq": 1,
+          "time": 1794171648
+        },
+        "signature": "X/fa8Hul4/rvEQtGVnj/IvDdaWbwKBBA+9jcuJ9KF2gvDYCb5cdpeYvBmS7qxwLlSamajnNcQKuO7bMVTSjECA=="
+      },
+      {
+        "payload": {
+          "after_hash": "f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189",
+          "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+          "before_hash": "f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189",
+          "effect_count_after": 0,
+          "effect_count_before": 0,
+          "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+          "kind": "execution",
+          "previous": "0b8a8d928c033b59c13f38cd4051a58f0432a47f381ab6596a74a2d033d86b74",
+          "reason": "InvalidEnvelope: Invalid signed envelope",
+          "request": {
+            "action": {
+              "actor": "isolated",
+              "capability": "sim.transfer",
+              "intent": "frozen benchmark action",
+              "params": {
+                "cents": 125,
+                "from": "treasury",
+                "to": "vendor"
+              }
+            },
+            "grant": null
+          },
+          "schema": "swiftapi.execution/v1",
+          "seq": 2,
+          "status": "DENIED",
+          "time": 1794171648
+        },
+        "signature": "N9zENMc1VO6c3bf2T7tIpkBDwNAa7FxSVtswlqZijDAmGhTC/Tl2kJYlOwTbNvBq0Zp6ivX49P96px2s/4FMAA=="
+      },
+      {
+        "payload": {
+          "after_hash": "2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93",
+          "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+          "before_hash": "f2f1982ccdde5fe3a4b40b716eb45877c71069b6434bc57b2b504fd5e9221189",
+          "effect_count_after": 1,
+          "effect_count_before": 0,
+          "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+          "kind": "execution",
+          "previous": "c65238dcc632bc6e6bbbafd2c92111893629dfd0a978bc4516db534fea5b2684",
+          "reason": "scope-and-current-condition-verified",
+          "request": {
+            "action": {
+              "actor": "isolated",
+              "capability": "sim.transfer",
+              "intent": "frozen benchmark action",
+              "params": {
+                "cents": 125,
+                "from": "treasury",
+                "to": "vendor"
+              }
+            },
+            "grant": {
+              "payload": {
+                "action_hash": "e91d69b7adef90caccaa112e72e9c694ad88ca1610aefbd21689698f7e6db539",
+                "allowed": true,
+                "capability": "sim.transfer",
+                "condition_hash": "b74f8d1f7bfef800f8aaee244937983b0266248dcd4271d8bb358919eb165531",
+                "expires_at": 1794171948,
+                "issued_at": 1794171648,
+                "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+                "nonce": "668599cd8707e49166dbb142b2201dc57b2b2dd49d6defd9ede98bb5a881a6bc",
+                "reason": "prerequisite satisfied",
+                "schema": "swiftapi.decision/v1",
+                "state_hash": "5cf383de6912190db95860081f693ccd22da8844df807bbc691d879abc86d8ec"
+              },
+              "signature": "gL+FaQoMEaYlnJ4B1St8yorj4bpUfdWHsIBpdJggGrS8NzLnaFk8e5MZ5uNf+DWFlBPbMVpxHrr9jbkUFc4+Ag=="
+            }
+          },
+          "schema": "swiftapi.execution/v1",
+          "seq": 3,
+          "status": "EXECUTED",
+          "time": 1794171648
+        },
+        "signature": "wv9QYKmXIFkCFsJPgvsO725cySqpALpYLRBgQmYzAh8rFbqecnJdYimPvfbA77H1XqH/ebZjaoF3fnbFH4xLCg=="
+      },
+      {
+        "payload": {
+          "after_hash": "2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93",
+          "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+          "before_hash": "2ec09cc5a81f9b5fc17f3c2066ecc4007687ef0ed531589ecfdf0c09bf469d93",
+          "effect_count_after": 1,
+          "effect_count_before": 1,
+          "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+          "kind": "execution",
+          "previous": "b26958c2a90226e6924d9d5d33073791296b57b317207b369ba265aa30e94ca1",
+          "reason": "IntegrityError: UNIQUE constraint failed: consumed.nonce",
+          "request": {
+            "action": {
+              "actor": "isolated",
+              "capability": "sim.transfer",
+              "intent": "frozen benchmark action",
+              "params": {
+                "cents": 125,
+                "from": "treasury",
+                "to": "vendor"
+              }
+            },
+            "grant": {
+              "payload": {
+                "action_hash": "e91d69b7adef90caccaa112e72e9c694ad88ca1610aefbd21689698f7e6db539",
+                "allowed": true,
+                "capability": "sim.transfer",
+                "condition_hash": "b74f8d1f7bfef800f8aaee244937983b0266248dcd4271d8bb358919eb165531",
+                "expires_at": 1794171948,
+                "issued_at": 1794171648,
+                "issuer": "UUUKd9zP0zzOACvOvC14Q4jerlaKdxxgnywXC/yAMCY=",
+                "nonce": "668599cd8707e49166dbb142b2201dc57b2b2dd49d6defd9ede98bb5a881a6bc",
+                "reason": "prerequisite satisfied",
+                "schema": "swiftapi.decision/v1",
+                "state_hash": "5cf383de6912190db95860081f693ccd22da8844df807bbc691d879abc86d8ec"
+              },
+              "signature": "gL+FaQoMEaYlnJ4B1St8yorj4bpUfdWHsIBpdJggGrS8NzLnaFk8e5MZ5uNf+DWFlBPbMVpxHrr9jbkUFc4+Ag=="
+            }
+          },
+          "schema": "swiftapi.execution/v1",
+          "seq": 4,
+          "status": "DENIED",
+          "time": 1794171648
+        },
+        "signature": "8GaFiDmvMM+D3NyeJwEnHHoyqRTRvBNhL8QWYHq+WVwKsZahZB5Ix7qKO5J0sM1MkBRWtOomgReLlYFWw0g3BA=="
+      }
+    ],
+    "final_state": {
+      "artifacts": [],
+      "balances": [
+        {
+          "actor": "isolated",
+          "account": "treasury",
+          "cents": 999875
+        },
+        {
+          "actor": "isolated",
+          "account": "vendor",
+          "cents": 125
+        }
+      ],
+      "agents": [
+        {
+          "actor": "isolated",
+          "strategy": "linear"
+        }
+      ],
+      "pages": [],
+      "effects": [
+        {
+          "action": {
+            "actor": "isolated",
+            "capability": "sim.transfer",
+            "intent": "frozen benchmark action",
+            "params": {
+              "cents": 125,
+              "from": "treasury",
+              "to": "vendor"
+            }
+          },
+          "action_hash": "e91d69b7adef90caccaa112e72e9c694ad88ca1610aefbd21689698f7e6db539"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "read_signing_key": "BLOCKED_BY_OS",
+    "read_database": "BLOCKED_BY_OS",
+    "write_database": "BLOCKED_BY_OS",
+    "write_grant": "BLOCKED_BY_OS",
+    "write_governing_code": "BLOCKED_BY_OS",
+    "alternate_network": "BLOCKED_BY_OS"
+  },
+  "statuses": [
+    "DENIED",
+    "EXECUTED",
+    "DENIED"
+  ],
+  "verification": {
+    "executed": 1,
+    "denied": 2,
+    "events": 4,
+    "head": "b1e3e93ab91c00909bdddfea36e5c6a47a887c84a7f25018b2297f4ddf998be9",
+    "effects": 1,
+    "verified": true
+  },
+  "passed": true
+}

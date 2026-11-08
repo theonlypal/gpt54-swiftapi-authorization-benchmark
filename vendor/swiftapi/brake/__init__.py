@@ -1,0 +1,1 @@
+"""Preserved SwiftAPI authorization core."""

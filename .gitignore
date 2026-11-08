@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+scratch/
+private/
+*.key
+*.sqlite3*
+output/pages/
+dist/
+evidence/prior-synthesis-289301f4.tar.gz
