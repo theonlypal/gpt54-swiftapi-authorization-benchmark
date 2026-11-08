@@ -1,0 +1,31 @@
+{
+  "pccg1": {
+    "repository": "https://github.com/theonlypal/PCCG-Qwen3-4B-continuation-control",
+    "commit": "d08b157ac9273974b75d7ada2a894a1afe86e3f2",
+    "doi": "10.5281/zenodo.22681787"
+  },
+  "pccg2": {
+    "repository": "https://huggingface.co/sharthokrayanpal/PCCG-2-Qwen3-4B",
+    "commit": "a3b952458a46b5547ba3cec7d03a37b395bed03a",
+    "doi": "10.5281/zenodo.22730710"
+  },
+  "reassign": {
+    "repository": "https://github.com/theonlypal/gpt-5.4-shrt-prerequisite-reassignment-analysis",
+    "commit": "eb8e39e070c3f4e2b00c5288efe008e2d737b4c3",
+    "doi": "10.5281/zenodo.22983298"
+  },
+  "door": {
+    "repository": "https://github.com/theonlypal/door-key-1-results",
+    "commit": "542fc5c5e5ab28122351a5cc4e46eddc0d57bfc4",
+    "doi": "10.5281/zenodo.24042127"
+  },
+  "synthesis": {
+    "doi": "10.5281/zenodo.24044104",
+    "commit": "289301f49c5e3087735825ced4adacaa34633153",
+    "repository": "https://github.com/theonlypal/shart-identity-condition-continuation"
+  },
+  "origin": {
+    "doi": "10.5281/zenodo.17856031",
+    "publication_date": "2025-12-08"
+  }
+}

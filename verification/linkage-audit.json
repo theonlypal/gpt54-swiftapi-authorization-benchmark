@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "audit_scope": "additional post-collection linkage checks, not a change to primary scoring",
+  "model": "gpt-5.4-2026-03-05",
+  "primary_generations": 80,
+  "environments": 624,
+  "signed_execution_requests": 1056,
+  "distinct_authority_keys": 624,
+  "authority_hash": "618eea2f551b66ea6093fe77a6fdf010d6a3ba22324693d4cf8fc6dba4088495",
+  "protected_effects": 192,
+  "unauthorized_effects": 0,
+  "duplicate_effects": 0,
+  "api_cost_usd": "0.1045150"
+}
