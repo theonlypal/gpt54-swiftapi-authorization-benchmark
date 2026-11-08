@@ -1,0 +1,12 @@
+{
+  "source": "fresh public GitHub clone",
+  "commit": "5aae1428f3c74eae9e270e4a15af649d66a12ff2",
+  "api_keys_removed": true,
+  "signing_keys_required": false,
+  "offline_primary_verifier": "PASS",
+  "linkage_audit": "PASS",
+  "tests_passed": 108,
+  "tests_failed": 0,
+  "independent_third_party": false,
+  "shared_dependency_environment": true
+}
